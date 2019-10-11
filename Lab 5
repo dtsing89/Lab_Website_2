@@ -101,7 +101,7 @@ function loadStatsPage(){
 	}
 
 	function switchPlayers(playerNum){
-		var a_p_y =  Math.round(players[playerNum].receiving_yards/players[playerNum].games_played);
+		var a_p_y =  Math.round(players[playerNum].pass_yards/players[playerNum].games_played);
 		var r_p_y = Math.round(players[playerNum].rushing_yards/players[playerNum].games_played);
 		var rec_p_y = Math.round(players[playerNum].receiving_yards/players[playerNum].games_played);
 
